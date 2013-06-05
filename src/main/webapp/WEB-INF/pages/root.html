@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-transitional-thymeleaf-spring3-3.dtd">
+<html lang="en" xmlns="http://www.w3c.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <link th:href="@{/static/jquery-ui/css/ui-lightness/jquery-ui-1.10.2.custom.css}" rel="stylesheet"/>
+    <title th:text="#{hello.title}"></title>
+
+    <script th:src="@{/static/jquery-ui/js/jquery-1.9.1.js}"></script>
+    <script th:src="@{/static/jquery-ui/js/jquery-ui-1.10.2.custom.js}"></script>
+</head>
+
+<body>
+
+<div tiles:include="content"></div>
+
+</body>
+</html>
